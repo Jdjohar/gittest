@@ -1,0 +1,451 @@
+/* home page */
+
+/* nav-bar start */
+.nav-color{
+    overflow: hidden;
+    background-color: #F2F7FD;
+    border-bottom: 1px solid #E4E4E4;
+}
+/* .navigation_btn{
+    
+} */
+.navigation_btn.active{
+    /* width: 222px; */
+    /* height: 0px; */
+    /* margin: auto; */
+    /* text-align: center; */
+    transition: 0.7s;
+    overflow: hidden;
+    /* height: 276px; */
+    position:absolute;
+
+}
+/* .overflow{
+    overflow: hidden;
+} */
+/* end */
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #FFF !important;
+    background-color: #222 !important;
+    border-color: transparent;
+    border-radius: 50px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.contact-info li {
+    padding-left: 50px;
+    position: relative;
+}
+.mb-4 i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 24px;
+    font-size: 30px;
+    color: #fe2d6b;
+    text-align: center;
+}
+.mb-4 span {
+    font-size: 16px;
+    color: #111121;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+/* first section */
+.back-img{
+    width: 100%;
+    background-image: url('../images/SLider\ home\ Image.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: hidden;
+}
+@media screen and (min-width:768px) {
+    .padd-bottom{
+        padding-bottom: 80px !important;
+    }
+}
+.color-sec-first{
+    background-color: #F2F7FD;
+}
+.pd-top{
+    padding-top: 100px;
+    padding-bottom: 134px;
+}
+
+.btn-color{
+    background-color: #1A064F !important;
+    color: white !important;
+}
+.color{
+    color: #2E4057;
+}
+/* end */
+
+
+/* second section */
+.bord{
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    overflow: hidden;
+    transition: all 0.2 ease-in-out;
+    /* cursor:pointer; */
+}
+
+
+/* end */
+
+/* third section */
+.sec-3{
+    background: #1A064F;
+    overflow: hidden;
+
+}
+.border-wh{
+    border: 2px solid white;
+}
+/* end */
+
+/* forth section */
+
+
+/* @media screen and (min-width: 728px) { */
+    .bg-circle{
+        background-image: url('../images/Ellipse\ 3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+/* } */
+/* end */
+
+/* fifth section */
+.fontt{
+    font-size: 14px;
+}
+/* end */
+
+/* sixth section */
+.text-col{
+    background-color: #F2F7FD;
+    border-radius: 13px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.text-col:hover{
+    color: #6440FB;
+}
+/* end */
+
+/* seventh section */
+
+.pb-8{
+    padding-bottom: 107px;
+}
+.color-sec-seven{
+    background-color: #F2F7FD;
+}
+
+.bg-img{
+    /* height: 700px; */
+    background-image: url('../images/download\ bg\ image\ 1.svg'), url('../images/download\ bg\ image\ 1\ \(1\).svg');
+    background-size: contain, contain;
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+    
+}
+
+@media screen and (min-width:987px) {
+    .img-padd{
+        padding-top: 182px;
+        padding-bottom: 186px;
+    }
+}
+@media screen and (min-width:669px) and (max-width:986px) {
+    .img-padd {
+        padding-top: 116px;
+        padding-bottom: 120px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:668px) {
+    .img-padd {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+@media screen and (max-width:425px) {
+    .img-padd {
+        padding-top: 46px;
+        padding-bottom: 37px;
+    }
+}
+.media-change{
+    background-color: #F2F7FD !important;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+}
+.media-change:hover{
+    transform: scale(1.5);
+    box-shadow: 2px 2px 34px  rgb(148,187,233,1);
+    border-radius: 20px;
+    font-weight: 600;
+    color: #1A064F;
+    /* background-image: linear-gradient(45deg, whitesmoke 0%,rgb(148,187,233,1) 100%); */
+}
+/* end */
+
+/* footer section */
+.footer-text1{
+    text-decoration: none;
+    color: #2E4057;
+    font-weight: 600;
+    font-size: 19px;
+}
+/* end */
+/* home page ends */
+
+
+/* lesson page start */
+
+/* breadcrumb start */
+.sec1{
+    background-color: #F2F7FD;
+
+}
+.home{
+    text-decoration: none !important;
+    color: black !important;
+
+}
+/* breadcrumb end */
+
+/* first section  start*/
+.bord{
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+}
+.santhiya{
+    text-decoration: none;
+    color: black;
+    
+}
+/* frist section end */
+
+
+
+/* footer start */
+.footer-text{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+}
+.foot-sec{
+    background: #1A064F;
+}
+
+/* footer end */
+
+/* lesson page end */
+
+
+/* lesson-name page start */
+
+/* section start */
+.sec1{
+    background-color: #F2F7FD; 
+}
+/* end */
+
+/* first sec */
+.bg-cl{
+    background: #F5F5F5;
+}
+.about{
+    border-radius: 50px;
+}
+.free{
+    color: #409F06;
+}
+.colorr{
+    background-color: #1A064F !important;
+    border-radius: 21px !important;
+}
+.btn-clr{
+    background-color: #1A064F !important;
+    color: white !important;
+}
+/* end */
+
+/* footer start */
+.footer-text{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+}
+.foot-sec{
+    background: #1A064F;
+}
+.d-flex{
+    display: inline;
+    margin: auto;
+}
+.marg{
+    margin: auto;
+    /* text-align: center; */
+}
+/* end */
+/* lesson-name page end */
+
+
+/* resource page start */
+/* nav section */
+.nav-color{
+    background-color: #F2F7FD;
+    border-bottom: 1px solid #E4E4E4;
+}
+/* end */
+
+/* breadcrumb start */
+.sec1{
+    background-color: #F2F7FD;
+
+}
+.home{
+    text-decoration: none !important;
+    color: black !important;
+
+}
+/* breadcrumb end */
+
+
+/* first section */
+.pdf{
+    text-decoration: none;
+    background-color: #2E4057;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+#pdf{
+    display: block;
+}
+#images{
+    display: none;
+}
+#videos{
+    display: none;
+}
+.imgs{
+    text-decoration: none;
+    background-color: "white";
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 40px;
+    color: #2E4057;
+    cursor: pointer;
+}
+.video{
+    text-decoration: none;
+    background-color: "white";
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 40px;
+    color: #2E4057;
+    cursor: pointer;
+}
+.box-work{
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 4px 15px rgba(179, 179, 179, 0.25);
+    border-radius: 27px;
+}
+.rup{
+    color: #DA1111;
+
+}
+/* end */
+
+/* resource page end */
+
+
+/* signup page start */
+.roww{
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 56px;
+}
+/* signup page end */
+
+
+/* login page start */
+.log-img{
+    background-image: url('../images/Rectangle\ 60.png');
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.login{
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 66px;
+}
+.login-box{
+    background-color: white;
+}
+.btn-blue{
+    background-color: #2E4057 !important;
+    color: white !important;
+}
+/* login page end */
+
+
+/* account page start */
+.login1{
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 12px;
+}
+.button-work{
+    background-color: #2E4057 !important;
+    border-radius: 12px !important;
+}
+.button-work1{
+    background-color: #F2F7FD !important;
+    border-radius: 12px !important;
+
+}
+
+.btn-colors{
+    background-color: #2E4057 !important;
+    color: white !important;
+    font-size: 19px !important;
+}
+
+/* account page end */
